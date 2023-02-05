@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar for Notion</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="calendar">
+      <div class="calendar__header">
+        <button id="btnPrev" class="btn calendar__prev" type="button">&LeftArrow;</button>
+        <h2 id="month" class="calendar__month">Current</h2>
+        <button id="btnNext" class="btn calendar__next" type="button">&RightArrow;</button>
+      </div>
+      <div id="calendar" class="calendar__body"></div>
+    </div>
+    <div id="date" class="date"></div>
+  </div>
+</body>
+
+</html>

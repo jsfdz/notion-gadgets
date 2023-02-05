@@ -1,0 +1,6 @@
+node_modules/
+assets/
+
+gulpfile.babel.js
+package.json
+package-lock.json
